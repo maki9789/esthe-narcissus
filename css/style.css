@@ -84,6 +84,7 @@ footer p {
     font-size: 1.6rem;
 }
 
+/* コンセプト */
 .second-content {
     position: relative;
 }
@@ -94,7 +95,6 @@ footer p {
     min-height: 100vh;
 }
 
- /* セクション */
 .consept {
     margin-top: 120px;
 }
@@ -112,4 +112,64 @@ footer p {
     font-size: 20px;
     top: 400px;
     left: 185px;
+}
+
+/* フェイシャル */
+.third-content {
+    position: relative;
+}
+
+.third-topic {
+    background-image: url('../images/faicial.png');
+    background-position: top 100% left;
+    min-height: 100vh;
+}
+
+.facial {
+    margin-top: 120px;
+}
+
+.facial h2 {
+    position: absolute;
+    font-size: 54px;
+    top: 230px;
+    right: 480px;
+}
+
+.facial p {
+    position: absolute;
+    font-size: 20px;
+    top: 340px;
+    right: 445px;
+}
+
+.facial li {
+    position: absolute;
+    font-size: 20px;
+    top: 390px;
+    right: 225px;
+    list-style: none;
+    line-height: 45px;
+
+}
+
+.facial-menu-btn {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 95px;
+    background-color: #c57d86;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    top: 600px;
+    right: 270px;
+}
+
+.third-menu {
+    position: absolute;
+    top: 10px;
+    right: 95px;
 }
