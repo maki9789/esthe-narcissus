@@ -1,0 +1,115 @@
+@charset "UTF=8";
+
+/* 共通部分 */
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    font-family: "游明朝体", "Academy Engraved LET";
+    line-height: 1.7;
+    color: #9c9ca1;
+    background-color: #f5efea;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* トップ画像 */
+.top-image {
+    background-image: url('../images/esthe-top.jpg');
+    min-height: 100vh;
+}
+
+/* 画像内のキャッチコピー */
+.top-message {
+    position: absolute;
+    top: 316px;
+    left: 778px;
+    font-size: 36px;
+    color: #fff;
+}
+
+/* ナビゲーション */
+.main-nav {
+    display: flex;
+    font-size: 1.6rem;
+    text-transform: lowercase;
+    margin-top: 45px;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-left: 60px;
+}
+
+.main-nav a {
+    color: #9c9ca1;
+}
+
+.main-nav a:hover {
+    color: #b5b5bb;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    background: url('../images/navigation.png');
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* ロゴ */
+h1 {
+    margin-top: 15px;
+}
+
+/* フッター */
+footer {
+    background: #e2beba;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.second-content {
+    position: relative;
+}
+
+.second-topic {
+    background-image: url('../images/consept.png');
+    background-position: top 60% right;
+    min-height: 100vh;
+}
+
+ /* セクション */
+.consept {
+    margin-top: 120px;
+}
+
+.consept h2 {
+    position: absolute;
+    font-size: 54px;
+    top: 230px;
+    left: 340px;
+}
+
+.consept p {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 400px;
+    left: 185px;
+}
