@@ -233,3 +233,112 @@ footer p {
     top: 10px;
     right: 95px;
 }
+
+/* インフォメーション */
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+    /* table-layout: fixed; */
+    color: #9c9ca1;
+}
+
+table tr {
+    padding: .35em;
+    border-bottom: 1px solid #9c9ca1;
+}
+
+table tr:last-child{
+    border-bottom: 1px solid #9c9ca1;
+}
+
+table th {
+    font-size: 18px;
+    padding: 30px 120px 15px 30px;
+    text-align: left;
+}
+
+table td {
+    padding: 30px 5px 1em 1em;
+}
+
+tbody th {
+    color: #9c9ca1;
+}
+
+.txt{
+    text-align: left;
+    font-size: 18px;
+}
+
+
+/* スマホ用テーブルタグCSS */
+/* @media screen and (max-width: 600px) {
+    table {
+    border: 0;
+    width:100%
+    }
+
+    table th{
+    display: block;
+    border-right: none;
+    border-bottom: 2px solid #0f7d13;
+    padding-bottom: .6em;
+    margin-bottom: .6em;
+    }
+
+    table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    }
+    
+    table tr {
+    display: block;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #0f7d13;
+    }
+    
+    table td {
+    border-bottom: 1px solid #bbb;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+    position: relative;
+    padding: .625em .625em .625em 4em;
+    border-right: none;
+    }
+    
+    table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    }
+    
+    table td:last-child {
+    border-bottom: 0;
+    }
+} */
+
+.salon-image {
+    float: left;
+    margin-left: 120px;
+    margin-top: 130px;
+}
+
+.salon-detail {
+    float: right;
+    margin-right: 120px;
+}
+
+.infomation {
+    text-align: center;
+    font-size: 72px;
+}
