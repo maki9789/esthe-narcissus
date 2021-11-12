@@ -368,9 +368,82 @@ tbody th {
     margin: 180px 25px 100px;
 }
 
+/* フッター */
 footer {
     background-color: #e2beba;
-    width: 1440px;
-    height: 400px;
+    width: 100%;
+    height: 450px;
+    color: #fff;
 }
 
+.footer-shopname {
+    float: left;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 666px;
+} 
+
+.sns-link {
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+.link-instagram {
+    margin-right: 50px;
+}
+
+.footer-nav {
+	text-align: center;
+}
+
+.footer-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.footer-nav li a {
+	display: block;
+	padding: 50px 35px 60px;
+    color: #fff;
+}
+
+.footer-tel-btn {
+    width: 400px;
+    height: 100px;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px 80px;
+    background-color: #c57d86;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    float: left;
+    margin-left: 210px;
+}
+
+
+.footer-web-btn {
+    width: 400px;
+    height: 100px;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px 80px;
+    background-color: #c57d86;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    float: right;
+    margin-right: 210px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 160px;
+    text-align: center;
+}
