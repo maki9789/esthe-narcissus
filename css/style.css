@@ -18,21 +18,31 @@ a {
 
 img {
     max-width: 100%;
+    
+}
+
+.wrap {
+    overflow: hidden;
 }
 
 /* トップ画像 */
 .top-image {
     background-image: url('../images/esthe-top.jpg');
     min-height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
 }
 
 /* 画像内のキャッチコピー */
-.top-message {
-    position: absolute;
-    top: 316px;
-    left: 778px;
+.top-message h1 {
+    font-weight: normal;
     font-size: 36px;
     color: #fff;
+    letter-spacing: .2em;
+    padding-top: 14%;
+    text-align: right;
+    margin-right: 40px;
 }
 
 /* ナビゲーション */
@@ -127,15 +137,14 @@ h1 {
 .facial p {
     position: absolute;
     font-size: 20px;
-    top: 340px;
-    right: 445px;
+    top: 370px;
+    right: 237px;
+    line-height: 40px;
 }
 
 .facial li {
     position: absolute;
     font-size: 20px;
-    top: 390px;
-    right: 225px;
     list-style: none;
     line-height: 45px;
 
@@ -347,7 +356,7 @@ tbody th {
 	margin: 0;
 	padding: 0;
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
 }
 
@@ -372,20 +381,19 @@ tbody th {
 footer {
     background-color: #e2beba;
     width: 100%;
-    height: 450px;
+    height: auto;
     color: #fff;
 }
 
-.footer-shopname {
-    float: left;
-    font-size: 25px;
-    margin-top: 60px;
-    margin-left: 666px;
-} 
+.footer-top p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
 
 .sns-link {
-    float: right;
-    margin-top: 50px;
+    text-align: end;
+    margin-top: -20px;
     margin-right: 80px;
 }
 
@@ -399,8 +407,8 @@ footer {
 
 .footer-nav ul {
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	margin: 50px auto 50px;
+	gap: 50px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -408,9 +416,15 @@ footer {
 }
 
 .footer-nav li a {
-	display: block;
-	padding: 50px 35px 60px;
+	/* display: block;
+	padding: 50px 35px 60px; */
     color: #fff;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 .footer-tel-btn {
@@ -423,8 +437,6 @@ footer {
     text-decoration: none;
     color: white;
     border-radius: 15px;
-    float: left;
-    margin-left: 210px;
 }
 
 
@@ -438,12 +450,10 @@ footer {
     text-decoration: none;
     color: white;
     border-radius: 15px;
-    float: right;
-    margin-right: 210px;
 }
 
 .copyright {
     font-size: 14px;
-    margin-top: 160px;
+    margin-top: 50px;
     text-align: center;
 }
